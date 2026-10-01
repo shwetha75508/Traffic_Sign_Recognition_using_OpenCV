@@ -13,7 +13,7 @@ The trained model is deployed through a **Streamlit application**, providing a s
 
 ---
 
-🎯 Objectives
+## 🎯 Objectives
 - Recognize traffic signs from uploaded images.
 - Apply image preprocessing using OpenCV.
 - Extract shape and edge information using HOG.
@@ -24,7 +24,7 @@ The trained model is deployed through a **Streamlit application**, providing a s
 
 ---
 
-📂 Dataset
+## 📂 Dataset
 
 The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset containing:
 
@@ -32,6 +32,8 @@ The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset con
 - 43 traffic sign classes
 - Images organized according to their class IDs.
 - Images have different original resolutions and sizes.
+
+---  
 
 ## 🛠️ Technologies Used
 
@@ -44,4 +46,55 @@ The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset con
 * Joblib
 * Streamlit
 
+---
+
+## 🔄 Machine Learning Workflow
+
+Dataset Loading
+      ↓
+Data Validation
+      ↓
+Image Preprocessing
+      ↓
+Image Resizing
+      ↓
+Grayscale Conversion
+      ↓
+HOG Feature Extraction
+      ↓
+Train-Test Split (80:20)
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+KNN Classification
+      ↓
+Model Serialization (Joblib)
+      ↓
+Streamlit Deployment
+
+---
+
+## 🤖 Machine Learning Models
+
+Several classification algorithms were evaluated during the project, including:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* K-Nearest Neighbors (KNN)
+* Naive Bayes
+
+The **K-Nearest Neighbors (KNN)** classifier was selected as the final model and deployed in the Streamlit application.
+
+### Final Model
+
+* **Algorithm:** K-Nearest Neighbors (KNN)
+* **Number of Classes:** 43
+* **Input:** 32 × 32 grayscale image
+* **HOG Features:** 324
+* **Test Accuracy:** Approximately 97%
+
+The reported accuracy is based on the **held-out test set from the same dataset distribution** used during model development.
 
