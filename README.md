@@ -36,14 +36,14 @@ The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset con
 
 ## 🛠️ Technologies Used
 
-* Python
-* OpenCV
-* Scikit-learn
-* Scikit-image (HOG)
-* NumPy
-* Pandas
-* Joblib
-* Streamlit
+- Python
+- OpenCV
+- Scikit-learn
+- Scikit-image (HOG)
+- NumPy
+- Pandas
+- Joblib
+- Streamlit
 
 ---
 
@@ -82,21 +82,21 @@ Streamlit Deployment
 
 Several classification algorithms were evaluated during the project, including:
 
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* K-Nearest Neighbors (KNN)
-* Naive Bayes
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
 
 The **K-Nearest Neighbors (KNN)** classifier was selected as the final model and deployed in the Streamlit application.
 
 ### Final Model
 
-* **Algorithm:** K-Nearest Neighbors (KNN)
-* **Number of Classes:** 43
-* **Input:** 32 × 32 grayscale image
-* **HOG Features:** 324
-* **Test Accuracy:** Approximately 97%
+- **Algorithm:** K-Nearest Neighbors (KNN)
+- **Number of Classes:** 43
+- **Input:** 32 × 32 grayscale image
+- **HOG Features:** 324
+- **Test Accuracy:** Approximately 97%
 
 The reported accuracy is based on the **held-out test set from the same dataset distribution** used during model development.
 
@@ -130,13 +130,13 @@ Images outside these 43 classes, or images from the same 43 classes that differ 
 
 ## 🚀 Future Enhancements
 
-* Improve model generalization using more diverse real-world images
-* Add data augmentation
-* Implement CNN-based deep learning models
-* Add Unknown / Out-of-Distribution detection
-* Improve recognition under different lighting and viewing conditions
-* Implement object detection for traffic signs in complete road scenes
-* Develop real-time traffic sign recognition
+- Improve model generalization using more diverse real-world images
+- Add data augmentation
+- Implement CNN-based deep learning models
+- Add Unknown / Out-of-Distribution detection
+- Improve recognition under different lighting and viewing conditions
+- Implement object detection for traffic signs in complete road scenes
+- Develop real-time traffic sign recognition
 
 ---
 
