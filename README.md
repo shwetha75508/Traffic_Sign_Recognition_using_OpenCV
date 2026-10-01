@@ -114,7 +114,7 @@ The application allows users to:
    - Class ID
    - Predicted Traffic Sign
    - Confidence Score
-   - Providing information about the model and its limitations
+6. View information about the model and its limitations.
 
 ---
 
