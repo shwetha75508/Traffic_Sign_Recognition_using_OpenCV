@@ -1,6 +1,5 @@
 # 🚦 Traffic Sign Recognition using Computer Vision and Machine Learning
 
----
 
 ## 📌 Project Overview
 This project is a Computer Vision and Machine Learning application that recognizes **43 different traffic sign classes** from uploaded images.
@@ -143,5 +142,4 @@ Images outside these 43 classes, or images from the same 43 classes that differ 
 
 ## 👨‍💻 Author
 Shweta Rani
-
-LinkedIn: 
+- LinkedIn: 
