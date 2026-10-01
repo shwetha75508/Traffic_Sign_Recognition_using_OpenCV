@@ -50,17 +50,20 @@ The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset con
 
 ## 🔄 Machine Learning Workflow
 
+## 🔄 Machine Learning Workflow
+
+```text
 Dataset Loading
       ↓
 Data Validation
       ↓
 Image Preprocessing
       ↓
-Image Resizing
+Image Resizing (32 × 32)
       ↓
 Grayscale Conversion
       ↓
-HOG Feature Extraction
+HOG Feature Extraction (324 Features)
       ↓
 Train-Test Split (80:20)
       ↓
@@ -73,6 +76,8 @@ KNN Classification
 Model Serialization (Joblib)
       ↓
 Streamlit Deployment
+```
+
 
 ---
 
