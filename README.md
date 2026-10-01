@@ -111,10 +111,10 @@ The application allows users to:
 3. Extract HOG features.
 4. Predict the traffic sign class.
 5. Display:
-    - Class ID
-    - Predicted Traffic Sign
-    - Confidence Score
-    - Providing information about the model and its limitations
+   - Class ID
+   - Predicted Traffic Sign
+   - Confidence Score
+   - Providing information about the model and its limitations
 
 ---
 
@@ -126,17 +126,19 @@ It does not currently include an **Unknown / Not a Traffic Sign** detection clas
 
 Images outside these 43 classes, or images from the same 43 classes that differ significantly from the training data in terms of **lighting, background, cropping, scale, viewing angle, or image quality**, may be classified incorrectly.
 
+The confidence score represents the model's classification confidence and should not be interpreted as a guarantee that the prediction is correct.
+
 ---
 
 ## 🚀 Future Enhancements
 
-- Improve model generalization using more diverse real-world images
-- Add data augmentation
-- Implement CNN-based deep learning models
-- Add Unknown / Out-of-Distribution detection
-- Improve recognition under different lighting and viewing conditions
-- Implement object detection for traffic signs in complete road scenes
-- Develop real-time traffic sign recognition
+- Improve model generalization using more diverse real-world images.
+- Add data augmentation to increase training-data variability. 
+- Implement CNN-based deep learning models.
+- Add Unknown / Out-of-Distribution detection.
+- Improve recognition under different lighting and viewing conditions.
+- Implement object detection for traffic signs in complete road scenes.
+- Develop real-time traffic sign recognition.
 
 ---
 
