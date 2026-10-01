@@ -107,14 +107,41 @@ The reported accuracy is based on the **held-out test set from the same dataset 
 
 The application allows users to:
 
-Upload a traffic sign image.
-Process the image using the same preprocessing pipeline used during training.
-Extract HOG features.
-Predict the traffic sign class.
-Display:
+1. Upload a traffic sign image.
+2. Process the image using the same preprocessing pipeline used during training.
+3. Extract HOG features.
+4. Predict the traffic sign class.
+5. Display:
     - Class ID
     - Predicted Traffic Sign
     - Confidence Score
     - Providing information about the model and its limitations
 
-    
+---
+
+## ⚠️ Model Limitations
+
+The model is trained to classify images into the **43 traffic sign classes present in the dataset**.
+
+It does not currently include an **Unknown / Not a Traffic Sign** detection class.
+
+Images outside these 43 classes, or images from the same 43 classes that differ significantly from the training data in terms of **lighting, background, cropping, scale, viewing angle, or image quality**, may be classified incorrectly.
+
+---
+
+## 🚀 Future Enhancements
+
+* Improve model generalization using more diverse real-world images
+* Add data augmentation
+* Implement CNN-based deep learning models
+* Add Unknown / Out-of-Distribution detection
+* Improve recognition under different lighting and viewing conditions
+* Implement object detection for traffic signs in complete road scenes
+* Develop real-time traffic sign recognition
+
+---
+
+## 👨‍💻 Author
+Shweta Rani
+
+LinkedIn: 
