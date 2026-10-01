@@ -50,8 +50,6 @@ The project uses a GTSRB - German Traffic Sign Recognition Benchmark dataset con
 
 ## 🔄 Machine Learning Workflow
 
-## 🔄 Machine Learning Workflow
-
 ```text
 Dataset Loading
       ↓
@@ -103,3 +101,20 @@ The **K-Nearest Neighbors (KNN)** classifier was selected as the final model and
 
 The reported accuracy is based on the **held-out test set from the same dataset distribution** used during model development.
 
+---
+
+## 🌐 Streamlit Application
+
+The application allows users to:
+
+Upload a traffic sign image.
+Process the image using the same preprocessing pipeline used during training.
+Extract HOG features.
+Predict the traffic sign class.
+Display:
+    - Class ID
+    - Predicted Traffic Sign
+    - Confidence Score
+    - Providing information about the model and its limitations
+
+    
